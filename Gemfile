@@ -65,6 +65,7 @@ group :production do
 end
 
 group :test do
+  gem 'sunspot-rails-tester'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'
